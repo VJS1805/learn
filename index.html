@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-weight: bold;
+            color: white;
+        }
+        body{
+            background-color: #2c2c2c;
+            font-family: "Montserrat Subrayada", sans-serif;
+        }
+        header{
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        ul li a{
+            margin: 0 5px;
+            border: 2px solid white;
+            padding: 0 10px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+        .logo{
+            border: 2px solid white;
+            padding: 10px 5px ;
+        }
+        .signup{
+            background-color: white;
+            color: black;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">Sell Now</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#" class="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <div class="contentleft">
+            <h2>Land Rover</h2>
+            <p>Land Rover is a British brand of predominantly four-wheel drive, off-road capable vehicles, owned by multinational car manufacturer Jaguar Land Rover (JLR), since 2008 a subsidiary of India's Tata Motors.</p>
+         </div>
+         <div class="contentmid"></div>
+         <div class="contentright"></div>
+    </main>
+</body>
+</html>
